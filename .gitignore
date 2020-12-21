@@ -1,4 +1,6 @@
 # Build products
+cmake-build-debug/
+cmake-build-release/
 build/
 build-32/
 build-64/
@@ -10,7 +12,7 @@ ipch/
 .env/
 cmake_install.cmake
 Makefile
-
+.idea/
 # Mac specific
 *.DS_Store
 xcuserdata/

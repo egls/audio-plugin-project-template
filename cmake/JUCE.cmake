@@ -85,7 +85,7 @@ function( addJUCE target_ )
 
   target_include_directories( ${CURRENT_TARGET} PUBLIC
     ${JUCE_LIBRARY_CODE_DIR}
-    ${CMAKE_SOURCE_DIR}/modules/JUCE5/modules
+    ${CMAKE_SOURCE_DIR}/modules/JUCE6/modules
   )
 
   set_target_properties(${CURRENT_TARGET} PROPERTIES
